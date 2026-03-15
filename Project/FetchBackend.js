@@ -1,5 +1,5 @@
 async function askAI() {
-  const url = "https://example.org/products.json";
+  const url = "http://localhost:8080/api/chat";
   try {
     const response = await fetch(url);
     if (!response.ok) {
